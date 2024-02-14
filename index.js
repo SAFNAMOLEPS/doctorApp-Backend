@@ -12,6 +12,6 @@ const port = 3001
 doctorServer.use(middleware)
 doctorServer.use(router)
 //to run port
-doctorServer.listen(port,()=>{
+doctorServer.listen(port,()=>(
     console.log('Doctor server listening on port ',port)
-})
+))
